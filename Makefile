@@ -2,7 +2,7 @@ a.out: main.o menu.o
 	gcc main.o menu.o
 main.o: main.c
 	gcc -c main.c
-arbol.o: menu.c
+menu.o: menu.c
 	gcc -c menu.c
 run: a.out
 	./a.out
