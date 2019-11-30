@@ -9,5 +9,4 @@ int main()
         printf( "\n   2. Calcular la mitad de un n%cmero entero.", 163 );
         printf( "\n   3. Calcular el cuadrado de un n%cmero entero.", 163 );
         printf( "\n   4. Salir." );
-        do
-        {
+    }
